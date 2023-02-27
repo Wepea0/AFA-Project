@@ -14,12 +14,13 @@
                 <img class="logo-local" src="images/Group 1.svg" alt="logo">
             </div>
             <ul class="links-local">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">League Tables</a></li>
-                <li><a href="#">Statistics</a></li>
-                <li><a href="#">Profile</a></li>  
-                <li><a href="#">Media Center</a></li>  
-                <li><a href="login.html"><button id="login"> Log In </button>   </a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="standings.php">League Tables</a></li>
+                <li><a href="statistics.php">Statistics</a></li>
+                <li><a href="profile.php">Profile</a></li>  
+                <li><a href="media.php">Media Center</a></li>  
+                <li><a href="login.php"><button id="login"> Log In </button>   </a></li>
+                <i class="fas fa-bars fa-2x" id="bar"></i>
                 <!-- <li><a href="login.html"><button id="login" data-toggle="modal" data-target="#loginModal"> Log In </button>   </a></li> -->
                 
                            
@@ -44,14 +45,22 @@
             </tr>
             <tr>
                 <td> Elite </td>
-                <td> 0 </td>
-                <td> 0 </td>
-                <td> 0 </td>
-                <td> 0 </td>
-                <td> 0 </td>
-                <td> 0 </td>
-                <td> 0 </td>
-                <td> 0 </td>
+                <!-- MP -->
+                <td> 23 </td>
+                <!-- Wins -->
+                <td> 7 </td>
+                <!-- Draws -->
+                <td> 2 </td>
+                <!-- Losses -->
+                <td> 1 </td>
+                <!-- Goals For -->
+                <td> 5 </td>
+                <!-- Goals for -->
+                <td> 6 </td>
+                <!-- Goals against -->
+                <td> 3 </td>
+                <!-- Goal difference -->
+                <td> -6 </td>
             </tr>
             <tr>
                 <td> Kasanoma </td>
